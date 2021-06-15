@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+H2{
+    text-align: center;
+    color: RED;
+    font-style: italic;
+    font-size: 40px; 
+}
+
+
+.main-div{
+	display: inline-block;
+	border: 1px solid red;
+	padding: 39px;
+	margin: 103px 585px;  
+    text-align: center;
+    position: relative; 
+ 
+} 
+
+
+.div-1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(10, 221, 137);
+    display: inline-block;
+}
+.div-2{ 
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+}
+.div-3{ 
+    height: 200px;
+    width: 200px;
+    background-color: blue; 
+    display: inline-block;
+} 
+
+.maindiv{ 
+    display: inline-block;
+    border: 1px solid green;
+    padding: 40px;
+    margin: 104px 587px;
+    text-align: center;
+    position: relative; 
+
+}
+
+
+/* hover effect */
+.hoverdiv{
+    height: 400px;
+    width: 400px;
+    display: inline-block;  }
+
+
+.hoverdiv img{
+    max-width: 100%; 
+    display: inline-block; 
+}
+
+.hoverinnter h2{ 
+    margin-top: 181px;
+    font-size: 30px; 
+
+}
+
+.hoverinnter{
+   position: absolute; 
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    height:100%;
+    width: 100%;  
+    background-color: rgba(255,101,1,.50); 
+    visibility: hidden;
+    transition: .5s; 
+    opacity: 0; 
+}
+
+.hoverdiv:hover .hoverinnter{
+    height: 100%;
+    width: 100%;
+    visibility: visible; 
+   opacity: 1;
+   display: inline-block;
+}
+
